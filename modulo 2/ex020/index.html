@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        div{
+            width: 150px;
+            height: 100px;
+            background-color: lightseagreen;
+            text-align:center;
+            border: 2px solid black;
+        }
+        div>p{ 
+           display: none;
+        }
+        div:hover>p{
+            display: block;
+            color: thistle;
+        }
+        div:hover{
+            background-color: darkgreen;
+            height: auto;
+             
+        }
+        
+    </style>
+</head>
+<body>
+    <div> passe o mouse aqui
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, nesciunt dignissimos! Provident architecto veniam deserunt nesciunt quam. Fuga ad omnis veniam eos voluptatem ex, debitis eligendi deserunt minus natus nesciunt.</p>
+    </div>
+    
+</body>
+</html>

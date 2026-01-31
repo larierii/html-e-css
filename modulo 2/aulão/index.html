@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-image: linear-gradient(to bottom, #F2F2F2, #F25050, #A64444, #6f1010);
+        }
+        header{
+            text-align: center;
+            color: #6f1010;
+        }
+        main{
+            background-color: #e5d1d1;
+            border-radius: 30px;
+            text-align: center;
+            padding: 20px;
+        }
+        footer{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Você conhece a Larissa?</h1>
+    </header>
+    <main>
+    <section>
+        <h2>qual a profissão dos sonhos dela?</h2>
+        <form>
+            <input type="radio" id="p1a" name="pergunta1"
+            value="psicologa">
+            <label for="p1a">psicologa</label>
+            <input type="radio" id="p1b" name="pergunta1" value="programadora">
+            <label for="p1b">programadora</label>
+            <input type="radio" id="p1c" name="pergunta1"
+            value="dubladora">
+            <label for="p1c">dubladora</label>
+            <input type="radio" id="p1d" name="pergunta1" value="dançarina">
+            <label for="p1d">dançarina</label>
+        </form>
+    </section>
+    <section>
+        <h2>qual a viagem dos sonhos dela?</h2>
+        <form>
+            <input type="text" id="p2"
+            name="pergunta2" placeholder="digite aqui...">
+        </form>
+    </section>
+    <section>
+        <h2>qual a senha padrão dela?</h2>
+        <form>
+            <input type="password" id="p3" name="pergunta3"
+            placeholder="senha...">
+        </form>
+    </section>
+    <section>
+        <form>
+            <h2>quando é o aniversário dela?</h2>
+            <input type="date" id="p4" name="pergunta4">
+        </form>
+    </section>
+    <section>
+        <form>
+            <h2>quais presentes ela mais gosta de ganhar?</h2>
+            <input type="checkbox" id="p5a" name="pergunta5"
+            value="acessorios">
+            <label for="p5a">acessorios</label>
+            <input type="checkbox" id="p5b" name="pergunta5" value="pelucias">
+            <label for="p5b">pelucias</label>
+            <input type="checkbox" id="p5c" name="pergunta5" value="roupas">
+            <label for="p5c">roupas</label>
+            <input type="checkbox" id="p5d" name="pergunta5" value="maquiagem">
+            <label for="p5d">maquiagem</label>
+            <input type="checkbox" id="p5e" name="pergunta5" value="skin de jogo">
+            <label for="p5e">skin de jogo</label>
+        </form>
+    </section>
+    <section>
+        <form>
+            <h2>qual sua foto favorita dela?</h2>
+            <input type="file" id="p6" name="pergunta6">
+        </form>
+    </section>
+    <section>
+        <form>
+            <h2>qual a maior qualidade que você vê nesse video?</h2>
+            <figure>
+                <video controls width="300px" autoplay muted>
+                <source src="meu video cortado 1.mp4" type="video/mp4">
+                </video>
+                <figcaption><strong>um pitelzinho</strong></figcaption>
+            </figure>
+            <input type="text" id="p7" name="pergunta7" placeholder="digite aqui...">
+        </form>
+    </section>
+    </main>
+    <footer>
+        <p>Feito por <u>Larissa Ribeiro</u></p>
+    </footer>
+</body>
+</html>

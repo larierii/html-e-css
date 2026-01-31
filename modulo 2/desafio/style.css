@@ -1,0 +1,90 @@
+@charset "UTF-8";
+    :root {
+        --cor1: #29FF70;
+        --cor2: #1fbf5479;
+        --cor3: #148038;
+        --cor4: #104521;
+    }
+    @font-face {
+                font-family: android;
+               src:url("pacote-projeto-d010/fontes/idroid.otf")
+                format("opentype")
+            }
+        body {
+            background-color: var(--cor1);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }    
+        header{
+            color: whitesmoke;
+            text-align: center;
+            text-shadow: 8px, 8px, 10px, rgba(0, 0, 0, 0.544);
+            margin: 0px;
+            padding: 10px;
+            background-image: linear-gradient(var(--cor3), var(--cor4));
+        }   
+        nav {
+            padding: 20px;
+            text-align: left;
+            text-decoration: none;
+            a {color: whitesmoke;
+            padding-right: 20px;}
+        }
+        main {
+            background-color: whitesmoke;
+            padding: 10px;
+            min-width: 280px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h2 {
+            font-family: android;
+            color: var(--cor3);
+        }
+        h3 {
+            background-image: linear-gradient(to right, var(--cor2), whitesmoke) ;
+            font-family: android;
+            color: var(--cor3);
+        }
+        footer{
+            background-color: var(--cor4);
+            text-align: center;
+            color: whitesmoke;
+        }
+        a {
+            text-decoration: none;
+            color: var(--cor3);
+        }
+        img {
+            margin: auto;
+            width: 100%;
+        }
+        aside {
+            background-color: var(--cor2);
+            padding: 10px;
+            border-radius: 10px;
+            
+        }
+        aside > h4 {
+                background-color: var(--cor3);
+                color: whitesmoke;
+                padding: 10px;
+                margin: -10px -10px 0px -10px;
+                border-radius: 10px 10px 0px 0px
+            }
+            div.video {
+                background-color: var(--cor3);
+                margin: 20px -10px 20px -10px;
+                padding: 10px;
+                width: auto;
+                padding-bottom: 59%;
+                position: relative;
+            }
+            div.video > iframe {
+                position: absolute;
+                top: 5%;
+                left: 5%;
+                width: 90%;
+                height: 90%;
+
+            }
