@@ -1,0 +1,109 @@
+@charset "UTF-8";
+        @font-face {
+                font-family:titan ;
+                src: url(pacote-d012/Titan_One/TitanOne-Regular.ttf);
+        }
+        @font-face {
+                font-family: shantell;
+                src: url(pacote-d012/Shantell_Sans/ShantellSans-VariableFont_BNCE\,INFM\,SPAC\,wght.ttf);
+        }
+
+header {
+        background-color: black;
+        color: whitesmoke;
+        text-align: center;
+        margin: 0px -10px 0px -10px;
+        padding: 10px;
+        }
+a {
+        color: whitesmoke;
+        text-decoration: none;
+}
+a:hover {
+        text-decoration: underline;
+}
+h1 {
+        font-size: 7vw;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 30px 20px 0px 20px;
+        margin: 30px 15px 0px 15px;
+        font-family: titan;
+        font-variant: small-caps;
+}
+body {
+        background-color: whitesmoke;
+}
+article {
+        line-height: 2ew;
+        font-size: 3vw;
+}
+main {
+        font-family:Shantell
+}
+div.flor {
+        background-color: rgb(230, 0, 255);
+        background-image: url(pacote-d012/imagens/background001.jpg);
+        background-position:top center;
+        background-size: cover;
+        height: auto;
+        padding-top: 20px;
+        
+        margin: 0px -10px 0px -10px;
+        background-attachment: fixed;
+}
+#p1 {
+        background-color: whitesmoke;
+        margin: 0px -10px 0px -10px;
+        padding: 5%;
+
+}
+#p2 {
+        background-color: rgba(0, 0, 0, 0.394);
+        color: whitesmoke;
+        width: 300px;
+        padding: 10px;
+        padding-left: 5%;
+        margin: 10%;
+}
+#p3 {
+       background-color: whitesmoke; 
+       padding-left: 5%;
+       text-align: justify;
+       padding-bottom: 10px;
+       padding-top: 10px;
+
+       
+}
+div.livro {
+       background-color: rgb(230, 0, 255);
+        background-image: url(pacote-d012/imagens/background002.jpg);
+        background-position:top center;
+        background-size: cover;
+        height: auto;
+        padding-top: 20px;
+        
+        margin: 0px -10px 0px -10px;
+        background-attachment: fixed;
+}
+#p4 {
+        background-color: rgba(0, 0, 0, 0.394);
+        color: whitesmoke;
+        width: 300px;
+        padding: 10px;
+        padding-left: 5%;
+        margin: 10%;
+}
+#p5 {
+        background-color: whitesmoke;
+       padding-left: 5%;
+       text-align: justify;
+       padding-bottom: 10px;
+       padding-top: 10px;
+       padding-bottom: 15px;
+}
+footer {
+        background-color: black;
+        margin: 0px -10px 0px -10px;
+        color: whitesmoke;
+        text-align: center;
+}
