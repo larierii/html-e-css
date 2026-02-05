@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas grandes</title>
+    <style>
+        td, th {
+            border: 1px solid black;
+            padding: 5px;
+            width: 200px;
+            height: 30px;
+        }
+        thead, tfoot {
+            background-color: grey;
+            color: whitesmoke;
+        }
+        table {
+            border-collapse: collapse;  
+        }
+        td.numero {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            Lista populcional Brasil
+        </caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">45.919.049</td>
+            </tr>
+            <tr>
+                <td> Minas Gerais</td>
+                <td class="numero">21.393.441</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17.223.547</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.870.907</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">11.890.517</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">11.233.263</td>
+            </tr>
+            <tr>
+                <td> Pernambuco</td>
+                <td class="numero">9.562.007</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9.268.836</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="numero">8.711.196</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="numero">8.187.029</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>População total</th>
+                <td class="numero">00000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
