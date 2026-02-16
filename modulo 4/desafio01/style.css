@@ -12,13 +12,64 @@ main {
     background-color: brown;
     height: 100vh;
     position: relative;
+    background-image: url(pacote-d013/pacote-d013/imagens/fundo-madeira.jpg);
 }
 #celular {
     position: absolute;
-    width: 500px;
-    height: 500px;
+    width: 310px;
+    height: 628px;
     top: 50%;
     left: 50%;
-    translate: translate (-50%, -50%);
-    background-color: cadetblue;
+    transform: translate(-50%, -50%);
+    background-image: url(pacote-d013/pacote-d013/imagens/frame-iphone.png);
+}
+#tela {
+    position: absolute;
+    width: 266px;
+    height: 470px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(pacote-d013/pacote-d013/imagens/tela-home.jpg);
+    background-size: cover;
+    border-radius: 3px;
+}
+iframe {
+    width: 266px;
+    height: 470px;
+}
+img {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+img:hover {
+    border: 3px solid rgba(255, 255, 255, 0.582);
+    transform: translate(-3px, -3px);
+    transition: transform .5s;
+}
+#home {
+    top : 2%;
+    right: 2%;
+}
+#youtube {
+    top : 13%;
+    right: 2%;
+}
+#github {
+    top : 24%;
+    right: 2%;
+}
+#instagram {
+    top : 35%;
+    right: 2%;
+}
+#twitter {
+    top : 46%;
+    right: 2%;
+}
+#facebook {
+    top : 57%;
+    right: 2%;
 }
