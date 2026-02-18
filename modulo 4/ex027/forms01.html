@@ -9,7 +9,7 @@
     <h1>Meu primeiro formulário</h1>
     <fieldset>
         <legend>Dados Pessoais</legend>
-            <form action="">
+            <form action="dados.php" method="post">
                 <p>
                     <label for="inome">Nome:</label>
                     <input type="text" name="nome" id="inome" required></p>
@@ -28,6 +28,10 @@
                     <label for="inasc">Data de nascimento:</label>
                     <input type="date" name="nasc" id="inasc" required>
                 </p>
+                <p>
+                    <label for="icor">Cor:</label>
+                    <input type="color" name="cor" id="icor" required>
+                </p>
                     </fieldset>
                     <fieldset>
                         <legend>Informações para contato</legend>
@@ -38,6 +42,14 @@
                 <p>
                     <label for="itel">Telefone:</label>
                     <input type="tel" name="tel" id="itel" required>
+                </p>
+                <p>
+                    <label for="idisp">Disponibilidade:</label>
+                    <input type="range" name="disp" id="idisp">
+                </p>
+                <p>
+                    <label for="itempo">Horário disponivel:</label>
+                    <input type="time" name="tempo" id="itempo" required>
                 </p>
                     </fieldset>
                     <input type="submit" value="Enviar">
