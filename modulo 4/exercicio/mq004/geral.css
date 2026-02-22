@@ -4,17 +4,19 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-size: 1.3em;
+    font-size: 1.2em;
     box-sizing: border-box;
 }
 
 body, html {
-    width: 100vw;
     height: 100vh;
 }
 
 body {
     background-image: url(imagens/back-phone.jpg);
+    background-position: center center;
+   
+
 }
 
 main {
@@ -23,10 +25,20 @@ main {
     padding: 10px;
     width: 90vw;
     border-radius: 10px;
+    margin-top: 20px
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
 }
 
 #phone {
-    display: none;
+    display: block;
 }
 #tablet {
     display: none;
@@ -35,5 +47,8 @@ main {
     display: none;
 }
 #pc {
+    display: none;
+}
+#print {
     display: none;
 }
