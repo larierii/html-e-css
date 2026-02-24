@@ -11,6 +11,7 @@ body {
 header {
     background-color: rgb(130, 129, 129);
     margin:-10px; 
+    width: 98.6vw;
 }
 
 h1 {
@@ -26,6 +27,7 @@ li {
     text-align: center;
     border: 1px solid gray;
     margin: 0px -10px 0px -10px;
+    width: 97.2vw;
 }
 
 a {
@@ -49,4 +51,15 @@ main {
 p{
     text-align: justify;
     text-indent: 15px;
+}
+
+span {
+    display: block;
+    background-color: rgb(86, 86, 86);
+    padding: 10px;
+    color: whitesmoke;
+}
+
+span:hover {
+    background-color: rgb(117, 116, 116);
 }
