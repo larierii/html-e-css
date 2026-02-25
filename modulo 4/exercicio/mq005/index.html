@@ -6,37 +6,47 @@
     <title>Menu</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="telas.css">
     
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
-        <h1>Meu Site</h1>
-        <span class="material-symbols-outlined">
+        <h1>Projetos web</h1>
+        <span id="hamburguer" class="material-symbols-outlined" onclick="clickMenu()">
 menu
 </span>
-        <nav>
+        <nav id="itens">
             <ul>
-                <li><a href="0">Opção 1</a></li>
-                <li><a href="0">Opção 2</a></li>
-                <li><a href="0">Opção 3</a></li>
-                <li><a href="0">Opção 4</a></li>
-                <li><a href="0">Opção 5</a></li>
+                <li><a href="https://larierii.github.io/Android/index.html.html" target="_blank">Android</a></li>
+                <li><a href="https://larierii.github.io/Cordel/cordel.html" target="_blank">Cordel</a></li>
+                <li><a href="https://larierii.github.io/redes-sociais/sociais.html" target="_blank">Redes</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h2>Testando Media Queries</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat veniam qui maxime voluptas recusandae enim debitis voluptatibus mollitia voluptatum doloribus natus magni quidem ullam aliquid unde sit dolores, et itaque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus enim quibusdam cum veritatis sed aperiam. Sed iure eum, minus numquam explicabo consequuntur illum consequatur voluptates soluta voluptatibus voluptatem nisi delectus.</p>
+        <h2>Apresentando meus projetos</h2>
+        <p>Eu sou uma estudante de programação e criei este site para mostrar um pouco do que venho aprendendo e praticando. Ainda estou no começo da minha jornada na área de tecnologia, mas estou sempre estudando, testando ideias e tentando melhorar a cada projeto.</p>
         <br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo enim eum, ipsa delectus beatae fugiat voluptatum! Nam cupiditate quaerat exercitationem. Ipsa dolorum veniam possimus numquam dolor velit modi in asperiores. </p>
+        <p>Aqui você vai encontrar alguns dos meus primeiros trabalhos, que representam meu processo de aprendizado, meus desafios e minha evolução. Cada projeto foi feito baseado no curso do professor Gustavo Guanabara, que estou acompanhando para iniciar meus estudos na área e desenvolver minhas habilidades.</p>
         <br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam obcaecati, porro vitae architecto nisi deleniti. Hic magni quidem temporibus delectus perspiciatis earum, iure suscipit maxime rem repellat cupiditate, architecto Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae perspiciatis odio similique amet error quaerat reprehenderit voluptatibus, vitae suscipit quae iusto fugit dignissimos neque magni porro voluptatum eos quas quidem.</p>
-        <br>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, doloribus ad cumque quaerat nam quasi officia accusantium incidunt error dignissimos expedita fuga accusamus sunt dolore minima voluptatum assumenda minus sequi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eum asperiores quo reprehenderit tempore dignissimos sint, optio commodi labore quod modi id debitis? Alias dolor at facere facilis magni hic?</p>
-        <br>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam similique odio aliquid. Ratione a velit repellat mollitia quisquam, quis explicabo voluptatibus modi adipisci deserunt culpa quae magnam praesentium eveniet inventore?</p>
+        <p>Se quiser, pode explorar os projetos pelo menu acima e acompanhar um pouco do meu caminho na programação.</p>
     </main>
-
+    <script>
+        function mudouTamanho() {
+            if (window.style.display) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.displey = 'none'
+            }
+        }
+        function clickMenu() {
+      if (itens.style.display == 'block') {
+        itens.style.display = 'none';
+      } else {
+        itens.style.display = 'block';
+    }
+    }
+    </script>
 </body>
 </html>
