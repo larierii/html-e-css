@@ -11,7 +11,7 @@ body {
 header {
     background-color: rgba(120, 186, 158, 0.742);
     margin:-10px; 
-    width: 98.6vw;
+    width: 102vw;
 }
 
 h1 {
@@ -30,7 +30,7 @@ li {
     text-align: center;
     border: 1px solid rgba(14, 50, 32, 0.652);
     margin: 0px -10px 0px -10px;
-    width: 97.2vw;
+    width: 100.5vw;
 }
 
 a {
@@ -61,7 +61,7 @@ p{
     background-color: rgb(53, 120, 91);
     padding: 10px;
     color: rgba(120, 186, 158, 0.742);
-    width: 94.5vw;
+    width: 98vw;
     text-align: center;
     cursor: pointer;
 }
