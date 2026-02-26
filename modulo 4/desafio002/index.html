@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="telas.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=key" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=person" />
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem vindo(a) devolta!
+                </p>
+                <p>Faça login para acessar sua conta e poder fazer configurações no ambiente</p>
+                <form action="dados.php" method="post">
+                    <p class="resposta">
+                        <label for="usuario">
+                            <span class="material-symbols-outlined"> person
+                            </span>
+                        </label>
+                        <input type="text" required class="escrever">
+                    </p>
+                    <p class="resposta">
+                        <label for="senha">
+                            <span class="material-symbols-outlined">key
+                            </span>
+                        </label>
+                        <input type="password" required class="escrever">
+                    </p>
+                    <input type="submit" value="Enviar" id="enviar">
+                </form>
+                <a href="0">Esqueci a senha</a>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>
