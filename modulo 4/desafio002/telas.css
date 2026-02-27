@@ -1,10 +1,60 @@
 @charset "UTF-8";
 
 @media screen and (min-width:768px) {
+    body {
+        background-image: linear-gradient(to top, rgba(150, 58, 236, 0.715), rgba(10, 106, 10, 0.773));
+    }
     #login {
-        width: 90vw;
+        width: 80vw;
     }
     #imagem {
-        display: none;
+        float: left;
+        width: 30%;
+        height: 400px;
+        background-image: url(imagens/WhatsApp\ Image\ 2025-12-29\ at\ 16.07.26\ \(1\).jpeg);
+        border-radius: 10px 0px 0px 10px;
+        background-position: center center;
     }
+    #formulario {
+        float: right;
+        width: 70%;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (min-width:992px) {
+    body {
+        background-image: linear-gradient(to top, rgba(150, 58, 236, 0.715), rgba(10, 106, 10, 0.773));
+    }
+    #login {
+        width: 990px;
+       
+    }
+
+    #imagem {
+        width: 50%;
+        height: 500px;
+        float: right;
+    }
+
+    #formulario {
+        float: left;
+        width: 50%;
+    }
+
+    p {
+    text-align: left;
+    font-size: 1.3em;
+}
+
+h1 {
+    font-size: 3em;
+}
 }

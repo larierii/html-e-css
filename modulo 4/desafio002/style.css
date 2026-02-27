@@ -26,6 +26,7 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.756);
+    transition: width .3s, height .3s;
 }
 #imagem {
     border-radius: 10px 10px 0px 0px;
@@ -38,20 +39,20 @@ main {
 }
 
 #formulario {
-    text-align: center;
     padding: 10px;
     display: block;
 }
 
-.resposta {
+.campo {
     background-color: rgba(108, 41, 171, 0.841);
     display: block;
-    text-align: center;
     margin: 4px;
     border-radius: 7px;
-    width: 200px;
+    width: 100%;
     padding: 7px;
     margin-left: 47px;
+    text-align: left;
+
 }
 
 .escrever {
@@ -63,17 +64,31 @@ main {
 
 p {
     text-align: left;
+    font-size: .8em;
 }
 
 label {
     color: antiquewhite;
 }
 
-#enviar {
+.botão {
     background-color: rgb(4, 160, 95);
     color: antiquewhite;
-    width: 210px;
-    height: 30px;
+    width: 100%;
+    height: 40px;
     border-radius: 5px;
     border: 0px;
+}
+
+.botão:hover {
+    background-color: rgb(2, 96, 57);
+}
+
+h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
