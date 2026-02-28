@@ -46,13 +46,23 @@ main {
 .campo {
     background-color: rgba(108, 41, 171, 0.841);
     display: block;
-    margin: 4px;
     border-radius: 7px;
     width: 100%;
-    padding: 7px;
-    margin-left: 47px;
+    padding: 7px; 
     text-align: left;
+    margin: 5px 0px;
+    height: 40px;
+    padding-right: 0px;
+}
 
+.campo > input {
+    height: 36px;
+    margin: 5px 0px 0px 0px;
+    padding-left: 2px;
+    width: calc(100% - 30px);
+    border-radius: 5px;
+    border: none;
+    transform: translateY(-9.9px);
 }
 
 .escrever {
@@ -67,11 +77,11 @@ p {
     font-size: .8em;
 }
 
-label {
-    color: antiquewhite;
+.material-symbols-outlined {
+    color: azure;
 }
 
-.botão {
+#enviar {
     background-color: rgb(4, 160, 95);
     color: antiquewhite;
     width: 100%;
@@ -80,7 +90,7 @@ label {
     border: 0px;
 }
 
-.botão:hover {
+#enviar:hover {
     background-color: rgb(2, 96, 57);
 }
 
@@ -91,4 +101,20 @@ h1 {
 
 a {
     text-decoration: none;
+    color: black;
+}
+
+.botão {
+    width: 100%;
+    text-align: center;
+    display: block;
+    border: 1px solid rgb(2, 96, 57);
+    border-radius: 5px;
+    height: 40px;
+    padding-top: 9px;
+    margin-top: 5px;
+}
+
+.botão:hover {
+    background-color: rgb(22, 235, 146);
 }
