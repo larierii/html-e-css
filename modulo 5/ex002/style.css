@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color:rgba(88, 207, 128, 0.741);
+    height: 100px;
+    margin-top: -10px;
+}
+
+h1 {
+    margin: 10px;
+}
+
+a {
+    background-color:rgba(2, 87, 30, 0.741);
+    color:rgba(232, 246, 237, 0.892);
+    padding: 10px;
+    text-decoration: none;
+}
+
+body {
+    background-color:rgba(8, 48, 21, 0.877);
+}
+
+main {
+    background-color:rgba(232, 246, 237, 0.892);
+    width: 80vw;
+    margin: auto;
+    border:4px solid rgba(17, 75, 35, 0.877);
+    border-radius: 10px;
+}
